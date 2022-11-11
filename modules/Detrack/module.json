@@ -1,0 +1,31 @@
+{
+    "alias": "detrack",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Detrack\\Providers\\Main",
+        "Modules\\Detrack\\Providers\\Event"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "vendor_fields":[{
+        "separator":"Detrack.com configuration",
+        "title": "Enable detrack.com when ordering",
+        "key": "detrack_enable",
+        "ftype": "bool",
+        "value":false
+    },{
+        "title": "New orders open to market",
+        "key": "detrack_public",
+        "ftype": "bool",
+        "value":true
+    },{
+        "title":"Detrack API Key", 
+        "key":"dertack_app_id", 
+        "value":""
+    }
+    ]
+}

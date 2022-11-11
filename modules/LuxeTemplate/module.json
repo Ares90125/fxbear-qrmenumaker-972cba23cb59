@@ -1,0 +1,16 @@
+{
+    "alias": "luxe-template",
+    "name": "Luxe Template",
+    "version": "1.2",
+    "isTemplateModule": true,
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\LuxeTemplate\\Providers\\Main"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

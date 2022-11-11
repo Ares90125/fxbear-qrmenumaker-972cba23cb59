@@ -1,0 +1,21 @@
+{
+    "alias": "expenses",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "version":"1.4",
+    "order": 0,
+    "providers": [
+        "Modules\\Expenses\\Providers\\Main"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "ownermenus":[
+        {
+            "name":"Expenses",
+            "route":"expenses.expenses.index",
+            "icon":"ni ni-money-coins text-red"
+        }
+    ]
+}

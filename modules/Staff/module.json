@@ -1,0 +1,21 @@
+{
+    "alias": "staff",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "version":"1.2",
+    "providers": [
+        "Modules\\Staff\\Providers\\Main"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "ownermenus":[
+        {
+            "name":"Staff",
+            "route":"staff.index",
+            "icon":"ni ni-single-02 text-blue"
+        }
+    ]
+}

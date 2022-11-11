@@ -1,0 +1,16 @@
+{
+    "alias": "elegant-template",
+    "name":"Elegant template",
+    "version":"1.6",
+    "isTemplateModule":true,
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\ElegantTemplate\\Providers\\Main"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

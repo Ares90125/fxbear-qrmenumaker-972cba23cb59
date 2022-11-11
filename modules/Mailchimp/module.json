@@ -1,0 +1,35 @@
+{
+    "alias": "mailchimp",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Mailchimp\\Providers\\Main",
+        "Modules\\Mailchimp\\Providers\\Event"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "global_fields":[
+        {
+            "separator":"Mailchimp",
+            "title": "API Key",
+            "key": "MAILCHIMP_API_KEY_MODULE",
+            "ftype": "input",
+            "type": "text",
+            "value":""
+        },{
+            "title": "Server ID ( the subdomain in your account )",
+            "key": "MAILCHIMP_SERVER_MODULE",
+            "ftype": "input",
+            "type": "text",
+            "value":"us14"
+    },{
+            "title": "List ID ( https://mailchimp.com/help/find-audience-id/ )",
+            "key": "MAILCHIMP_LISTID_MODULE",
+            "ftype": "input",
+            "type": "text",
+            "value":"b46f2856c5"
+    }]
+}

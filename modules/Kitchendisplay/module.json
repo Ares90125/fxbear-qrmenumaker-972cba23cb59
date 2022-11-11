@@ -1,0 +1,20 @@
+{
+    "alias": "kitchendisplay",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Kitchendisplay\\Providers\\Main"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "ownermenus":[
+        {
+            "name":"KDS",
+            "route":"kitchendisplay.index",
+            "icon":"ni ni-tablet-button text-blue"
+        }
+    ]
+}
